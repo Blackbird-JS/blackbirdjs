@@ -1,2 +1,1 @@
-export { BlackbirdStore } from '@blackbirdjs/store';
-export { BlackbirdComponent, setGlobalStore } from '@blackbirdjs/component';
+export { BlackbirdComponent, BlackbirdStore, setGlobalStore } from '@blackbirdjs/core';

@@ -1,17 +1,15 @@
 {
   "name": "blackbirdjs",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "The BlackbirdJS Framework",
   "type": "module",
   "main": "./index.js",
   "exports": {
     ".": "./index.js",
-    "./store": "./node_modules/@blackbirdjs/store/src/index.js",
-    "./component": "./node_modules/@blackbirdjs/component/src/index.js"
+    "./core": "./node_modules/@blackbirdjs/core/src/index.js"
   },
   "dependencies": {
-    "@blackbirdjs/store": "^0.1.0",
-    "@blackbirdjs/component": "^0.1.0"
+    "@blackbirdjs/core": "^0.1.0"
   },
   "license": "Apache-2.0",
   "publishConfig": {
